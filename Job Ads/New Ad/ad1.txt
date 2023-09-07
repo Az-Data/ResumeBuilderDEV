@@ -1,0 +1,60 @@
+Role: Data Scientist
+Salary: $120,859 - $133,183 + Super
+
+
+Temporary Full-Time role up to 28 February 2025 with possibility of extension
+Location: Parramatta, we are flexible in working with currently attending office one day a week
+Salary starting from $120,859 + Super + accrued flex leaves
+
+
+NSW Department of Education has an exciting opportunity for a skilled and experienced individual to join the Centre for Education Statistics and Evaluation (CESE) team as a Data Scientist. 
+
+About the role
+
+This is a newly created role within the Department to leverage the datasets and to produce meaningful insights which will drive the Departments vision for data and insights. As a Data Scientist you will be producing innovative solutions driven by exploratory data analysis from complex and high-dimensional datasets. 
+You will build strong relationships internally & externally, creating credibility and driving the strategies through key initiatives.
+In addition to this you will also be :
+
+Key subject matter expert in education-based data for the Thrive program.
+Support Data Science Lead and other Data Reform teams with data/analytical subject knowledge and in upskilling departmental staff on data science tasks.
+Work closely with cross-functional teams, including data engineers, data analysts, domain experts, policy analysts, project managers and other business stakeholders, to define problem statements and develop solutions
+For further information please click here to view the role description 
+
+Benefits
+
+Flexible working arrangements, including - hybrid/work from home arrangements.
+35 hour working week
+Competitive, salary sacrificing, employer’s contribution to superannuation and annual leave loading
+Flex Leave entitlements, generous holidays & leave conditions
+Opportunities for advancement and mobility across the Department to support your career growth
+
+About you 
+
+Demonstrated strong data science skills and experience in a complex cloud-based data ecosystem.
+Exceptional communication skills, both written and verbal. with the ability to engage with a range of stakeholders and strong presentation skills to explain complex analytical concepts.
+Keen attention to detail and adeptness in task prioritization.
+Proficiency in cloud computing, with a preference for AWS experience.
+Hands on experience with big data, machine learning, predictive analytics and communicating data science outcomes
+Knowledge of and commitment to implementing the Department’s Aboriginal Education Policy and upholding the Department’s Partnership Agreement with the NSW AECG and to ensure quality outcomes for Aboriginal people.
+Essential requirements of the role
+
+Demonstrated understanding of and commitment to the value of public education
+Hold a valid clearance to work with Children (Working with Children Check) or be willing to obtain
+About the Department of Education 
+The Department of Education is the largest provider of public education in Australia, with nearly 100,000 employees across NSW in our schools and corporate offices. Our purpose is centred on the delivery of high-quality public education to two-thirds of the NSW student population.
+
+For more information about the Department of Education, please visit NSW Department of Education
+
+How to apply
+
+Attach a resume (maximum 5 pages) and a cover letter (maximum 2 pages) outlining how you meet the requirements and capabilities of this role as well as providing answers to the 2 pre-screening questions below:
+
+Targeted Question 1
+Data-driven insights are valuable when they lead to actionable recommendations. Provide an example of how you have translated complex data analyses into practical recommendations and presented your findings to non-technical stakeholders?
+
+Targeted Question 2
+Provide an overview of a time you, or a team you were a part of, built a model to solve a real-world problem. Provide your approach. Focus on outcome and impact over technical detail. Feel free to highlight out dots points that may have been addressed by other members of your delivery team.
+
+Note: the selection process will include a range of assessment techniques to assist in determining your suitability for the role. Successful candidates will be required to undertake pre-employment screening for this role which includes a National Criminal History Check.
+
+This is a child-related role. As a condition of employment you will be required to provide a valid Working with Children Check (WWCC) Clearance number (for paid employment). Visit the website for more information.
