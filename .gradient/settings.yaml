@@ -1,0 +1,4 @@
+integrations:
+  skills:
+    type: dataset
+    ref: paperspace/dsz4imqcu8kz6uy:latest
