@@ -67,7 +67,7 @@ def create_job_folders():
 
     # Print the current local time and date
 
-    file_list = os.listdir(jobAd_path)
+    file_list = [file for file in os.listdir(jobAd_path) if file.endswith('.txt')]
 
     folder_prefix = [filename.split(".", 1)[0] for filename in file_list]
 
@@ -77,7 +77,10 @@ def create_job_folders():
 
 
 def obtain_ad_folder_dict():
-    file_list = os.listdir(jobAd_path)
+    """
+    gets a dictionary of {ad_file : ad_folder}
+    """
+    file_list = [file for file in os.listdir(jobAd_path) if file.endswith('.txt')]
 
     folder_prefix = [filename.split(".", 1)[0] for filename in file_list]
 
@@ -92,14 +95,3 @@ def obtain_ad_folder_dict():
     
     return ad_folder_dict
 
-# COMMAND ----------
-
-## Uncomment this to clear Resume Components folder
-# empty_Resume_Components_and_Output_folder()
-
-## Uncomment this to create job folders
-# create_job_folders()
-
-
-
-# COMMAND ----------
