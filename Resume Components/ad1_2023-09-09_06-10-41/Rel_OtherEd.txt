@@ -1,0 +1,5 @@
+Data Science Specialization by Johns Hopkins University on Coursera
+Data Science for Everyone by DataCamp
+Certified Data Scientist (CDS) by DASCA.
+Spark and Hadoop Developer Certification by Cloudera
+SQL for Data Science by DataCamp
