@@ -82,18 +82,14 @@ text_splitter = RecursiveCharacterTextSplitter(
 
 
 
-# DBTITLE 1,Pipeline
-# paths to hard and soft skills text file 
+# Pipeline
+# paths to skills text file 
 skills_path = '/notebooks/Inputs/Skills.txt'  
 
 # get list of skills 
 skills = file2list(skills_path)
 
-# COMMAND ----------
-
 job_ads = uf.obtain_ad_folder_dict()
-
-# COMMAND ----------
 
 
 for ad, folder in job_ads.items():

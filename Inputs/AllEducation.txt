@@ -1,0 +1,17 @@
+"Bachelor Degree in Computer Science
+University of Pangia 2013
+Garden City, The Moon"
+Data Science Specialization by Johns Hopkins University on Coursera
+Machine Learning by Andrew Ng on Coursera
+Probability and Statistics by MIT OpenCourseWare
+Data Science for Everyone by DataCamp
+Data Visualization with Python on Coursera
+Spark and Hadoop Developer Certification by Cloudera
+SQL for Data Science by DataCamp
+NLP Specialization by deeplearning.ai on Coursera
+Practical Time Series Analysis by O'Reilly Media
+Experimentation for Improvement by edX
+AWS Certified Data Analytics by Amazon Web Services (AWS)
+Version Control with Git by Atlassian on Coursera
+Computer Vision Specialization by University at Buffalo on Coursera
+Certified Data Scientist (CDS) by DASCA.
