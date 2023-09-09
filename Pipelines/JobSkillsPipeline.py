@@ -3,11 +3,14 @@ import numpy as np
 from numpy.linalg import norm
 import pandas as pd
 from sentence_transformers import SentenceTransformer
-
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-
 import torch
 torch.cuda.empty_cache()
+
+import sys
+# adding UtilityFuncts to the system path
+sys.path.insert(0, '/notebooks/Utility')
+import UtilityFuncts as uf
 
 
 # The Embeddings Model
@@ -78,23 +81,17 @@ text_splitter = RecursiveCharacterTextSplitter(
 )
 
 
-# COMMAND ----------
-
-# DBTITLE 1,Utilities Notebook
-# MAGIC %run "/Users/joe.g.gulay@au.ey.com/Stonecutters/Resume Builder/Utility/Utility Notebook"
-
-# COMMAND ----------
 
 # DBTITLE 1,Pipeline
 # paths to hard and soft skills text file 
-skills_path = '/Workspace/Users/joe.g.gulay@au.ey.com/Stonecutters/Resume Builder/Experience History/Skills.txt'  
+skills_path = '/notebooks/Inputs/Skills.txt'  
 
 # get list of skills 
 skills = file2list(skills_path)
 
 # COMMAND ----------
 
-job_ads = obtain_ad_folder_dict()
+job_ads = uf.obtain_ad_folder_dict()
 
 # COMMAND ----------
 
@@ -102,7 +99,7 @@ job_ads = obtain_ad_folder_dict()
 for ad, folder in job_ads.items():
 
     # get the ad 
-    with open(f'/Workspace/Users/joe.g.gulay@au.ey.com/Stonecutters/Resume Builder/Job Ads/New Ad/{ad}', 'r') as f:
+    with open(f'/notebooks/Job Ads/New Ad/{ad}', 'r') as f:
         text = f.read()
 
     # perform the text splitting
@@ -122,7 +119,7 @@ for ad, folder in job_ads.items():
     top_skills = topSkills(skills, 7, embeddings_df)
 
     # write to relevant Job ad folder in Resume Components folder
-    output_skills_path = f"/Workspace/Users/joe.g.gulay@au.ey.com/Stonecutters/Resume Builder/Resume Components/{folder}/Rel_Skills.txt"  
+    output_skills_path = f"/notebooks/Resume Components/{folder}/Rel_Skills.txt"  
     
     with open(output_skills_path, "w") as f:
         for item in top_skills:
