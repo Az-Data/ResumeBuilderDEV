@@ -24,7 +24,7 @@ def file2df(path):
     """
     Functions reads in a csvfile path and returns that CSV as a dataframe and outputs a Dataframe cont  
     """
-    df = pd.read_csv(path, )
+    df = pd.read_csv(path)
 
     return df
 
@@ -58,14 +58,11 @@ def top_5_cos_sim(wh_embedding, job_chunk_df):
 
 
 # Creating the text splitter
-
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size = 200,
     chunk_overlap  = 20,
     length_function = len,
 )
-
-
 
 # Generate work history embeddings
 
