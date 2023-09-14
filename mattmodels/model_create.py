@@ -1,15 +1,15 @@
 import os
-target_dir = 'model'
+target_dir = '../mattmodels'
 os.chdir(target_dir)
 
 import transformers
 from llm_model import load_model, generate_sequences
 
 # Log into huggingface using token stored in txt file
-f = open('token.txt','r')                           # Store uggingface token in token.txt in this directory
-token = f.readline()
+# f = open('token.txt','r')                           # Store uggingface token in token.txt in this directory
+# token = f.readline()
 
-os.system(f'huggingface-cli login --token {token}')
+os.system(f'huggingface-cli login --token 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')
 
 # Specify model parameters
 model_id = "meta-llama/Llama-2-7b-chat-hf"          # from https://huggingface.co/models
