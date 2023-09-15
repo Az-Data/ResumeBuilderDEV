@@ -1,6 +1,6 @@
 role_id,Company,Role,Period,Location
-1,Company XYZ,Data Science Manager,September 2022 - Present,Seattle, WA
-2,Tech Innovations Inc.,Senior Data Scientist,January 2018 - August 2022,San Francisco, CA
-3,Data Insights Co.,Data Scientist,July 2014 - December 2017,New York, NY
-4,Analytics Solutions Ltd.,Data Analyst,March 2009 - June 2014,Chicago, IL
-5,Tech Start-Up Inc.,Junior Data Analyst,November 2005 - February 2009,Austin, TX
+1,Company XYZ,Data Science Manager,September 2022 - Present,"Seattle, WA"
+2,Tech Innovations Inc.,Senior Data Scientist,January 2018 - August 2022,"San Francisco, CA"
+3,Data Insights Co.,Data Scientist,July 2014 - December 2017,"New York, NY"
+4,Analytics Solutions Ltd.,Data Analyst,March 2009 - June 2014,"Chicago, IL"
+5,Tech Start-Up Inc.,Junior Data Analyst,November 2005 - February 2009,"Austin, TX"

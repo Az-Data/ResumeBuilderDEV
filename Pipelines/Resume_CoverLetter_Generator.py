@@ -10,7 +10,6 @@ import sys
 sys.path.insert(0, '/notebooks/Utility')
 import UtilityFuncts as uf
 
-
 # Import resume components
 # Name, Email, Phone Number, LinkedIn
 UserInfoPath = "/notebooks/Inputs/UserInfo.csv"
@@ -37,19 +36,16 @@ for job, folder in job_ads.items():
     higher_ed_path = f"/notebooks/Resume Components/{folder}/HigherEd.txt"
     with open(higher_ed_path) as f:
         higher_ed = f.read().splitlines()
-    f.close()
 
     # Other Education
     other_ed_path = f"/notebooks/Resume Components/{folder}/Rel_OtherEd.txt"
     with open(other_ed_path) as f:
         other_ed = f.read().splitlines()
-    f.close()
 
     # Hard Skills
     hard_skills_path = f"/notebooks/Resume Components/{folder}/Rel_Skills.txt"
     with open(hard_skills_path) as f:
         hard_skills = f.read().splitlines()
-    f.close()
 
     # Relevant achievements
     # Read in achievements
@@ -119,12 +115,12 @@ for job, folder in job_ads.items():
         # #### Role Dates
         we_row[0].width = Inches(1) # Set the cell width
         p = we_row[0].paragraphs[0] # Put this in to remove the first paragraph
-        p.add_run(row['year'])
+        p.add_run(row['Period'])
 
         we_row[1].width = Inches(7.5) # Set the cell width
         p = we_row[1].paragraphs[0]
-        p.add_run(f"{row['role']}\n").bold =True
-        p.add_run(f"{row['company']}\n").italic = True
+        p.add_run(f"{row['Role']}\n").bold =True
+        p.add_run(f"{row['Company']}\n").italic = True
 
         for achievement in row['achievement_list']:
             p.add_run(f"- {achievement}\n")
@@ -160,8 +156,6 @@ for job, folder in job_ads.items():
     cover_letter_text_path = f"/notebooks/Resume Components/{folder}/cover_letter_text.txt"
     with open(cover_letter_text_path) as f:
         cover_letter_text = f.read()
-    f.close()
-
 
     cover_letter = Document()
 
@@ -190,5 +184,4 @@ for job, folder in job_ads.items():
     # Put in cover letter text
     p = cover_letter.add_paragraph(cover_letter_text)
 
-    
     cover_letter.save(f'/notebooks/Output/{folder}/Cover_Letter.docx')
