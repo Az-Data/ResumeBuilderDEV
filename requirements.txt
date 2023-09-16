@@ -4,6 +4,8 @@ typing_extensions==4.5.0
 pydantic==1.10.11
 langchain==0.0.286
 python-docx
+xformers
+# optimum #I'm not sure if we need this, it was in the cover letter notebook  
 lxml==4.9.3
 accelerate
 colorama
